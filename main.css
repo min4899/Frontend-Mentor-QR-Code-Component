@@ -27,15 +27,12 @@ body {
 h2 {
   color: var(--darkBlue);
   font-weight: 700;
-  /* font-size: 22px;
-  margin-bottom: 15px; */
   font-size: 1.4667rem;
   margin-bottom: 1rem;
 }
 
 p {
   color: var(--grayishBlue);
-  /* font-size: 15px; */
   font-size: 1rem;
   font-weight: 400;
 }
@@ -48,9 +45,6 @@ p {
 
 .qr-window {
   background: var(--white);
-  /* width: 325px;
-  padding: 15px;
-  border-radius: 15px; */
   width: 22rem;
   padding: 1rem;
   border-radius: 1rem;
@@ -61,12 +55,10 @@ p {
 
 .qr-image {
   max-width: 100%;
-  /* border-radius: 15px; */
   border-radius: 1rem;
 }
 
 .textarea {
-  /* padding: 20px 15px; */
   padding: 1.333rem 1rem;
   max-height: 100%;
   text-align: center;
