@@ -45,13 +45,13 @@ p {
 
 .qr-window {
   background: var(--white);
-  width: 21rem;
+  width: 21.5rem;
   padding: 1rem;
   border-radius: 1.2rem;
   display: flex;
   flex-direction: column;
   align-items: center;
-  box-shadow: 0 0.6rem 1.5rem -1rem grey;
+  box-shadow: 0 1rem 2rem -1.5rem grey
 }
 
 .qr-image {
