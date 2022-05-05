@@ -24,7 +24,7 @@ body {
   background: var(--lightGrey);
 }
 
-h2 {
+h1 {
   color: var(--darkBlue);
   font-weight: 700;
   font-size: 1.4667rem;
