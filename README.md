@@ -35,27 +35,25 @@ This is a solution to the [QR code component challenge on Frontend Mentor](https
 
 ### What I learned
 
-Use this section to recap over some of your major learnings while working through this project. Writing these out and providing code samples of areas you want to highlight is a great way to reinforce your own knowledge.
+Custom properties are useful for not repeating code and creating color themes.
 
-To see how you can add code snippets, see below:
-
-```html
-<h1>Some HTML code I'm proud of</h1>
-```
 ```css
-.proud-of-this-css {
-  color: papayawhip;
+:root {
+  --white: #ffffff;
+  --lightGrey: hsl(212, 45%, 89%);
+  --grayishBlue: hsl(220, 15%, 55%);
+  --darkBlue: hsl(218, 44%, 22%);
 }
 ```
-```js
-const proudOfThisFunc = () => {
-  console.log('🎉')
+I learned that using a percent for font-size is better than px since percent can adjust to user preferences with different screen sizes and zoom.
+
+```css
+* {
+  margin: 0;
+  font-family: "Outfit";
+  font-size: 93.75%; /* similar to 15px*/
 }
 ```
-
-If you want more help with writing markdown, we'd recommend checking out [The Markdown Guide](https://www.markdownguide.org/) to learn more.
-
-**Note: Delete this note and the content within this section and replace with your own learnings.**
 
 ### Continued development
 
